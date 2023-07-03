@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: fixed;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  height: 100dvh;
+  width: 100vw;
+}
+
+body {
+  height: 100dvh;
+  width: 100vw;
+
+}
+
+#app {
+  background-color: #1a1a1a;
+  height: 100dvh;
+  width: 100vw;
+
+}

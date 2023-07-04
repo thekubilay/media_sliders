@@ -65,10 +65,10 @@ export default function useRunAwayActions() {
 
           if (closerTo === "top") {
             // move up and left
-            li.style.transform = `translateX(${matrix.m41 - 35}px) translateY(${matrix.m42 - 20}px)`;
+            li.style.transform = `translateX(${matrix.m41 - 35}px) translateY(${matrix.m42 - 50}px)`;
           } else {
             // move down and left
-            li.style.transform = `translateX(${matrix.m41 - 35}px) translateY(${matrix.m42 + 20}px)`;
+            li.style.transform = `translateX(${matrix.m41 - 35}px) translateY(${matrix.m42 + 50}px)`;
           }
         }
 
